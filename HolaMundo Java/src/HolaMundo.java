@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 // Mi clase Java
 public class HolaMundo {
     public static void main(String[] args) {
@@ -46,6 +48,13 @@ public class HolaMundo {
         System.out.println("Retroceso: \b" + nombre);
         System.out.println("Comilla simple: \'" + nombre + "\'");
         System.out.println("Comilla doble: \"" + nombre + "\"");
+
+        Scanner consola = new Scanner(System.in);
+        System.out.println("Proporciona el titulo: ");
+        var titulo1 = consola.nextLine();
+        System.out.println("Proporciona el autor: ");
+        var autor = consola.nextLine();
+        System.out.println(titulo1 + " Fue escrito por " + autor);
     }
 }
 
