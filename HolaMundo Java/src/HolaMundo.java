@@ -20,6 +20,13 @@ public class HolaMundo {
 
         var miVariableCadena2 = "Nueva cadena";
         System.out.println(miVariableCadena2);
+
+        // Valoes permitidos en el nombre de variables
+        var miVariable = 1;
+        var _miVariable = 2;
+        var $miVariable = 3;
+
+
     }
 }
 
