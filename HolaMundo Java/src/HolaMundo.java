@@ -38,6 +38,14 @@ public class HolaMundo {
         System.out.println(i + j + usuario); // Evaluacion de izquierda a derecha, realiza suma
         System.out.println(usuario + i + j); // Contexto cadena, todo es una cadena
         System.out.println(usuario + (i + j)); // Uso de parentesis modifican la prioridad en la evaluacion
+
+        var nombre = "Karla";
+
+        System.out.println("Nueva linea: \n" + nombre);
+        System.out.println("Tabulador: \t" + nombre);
+        System.out.println("Retroceso: \b" + nombre);
+        System.out.println("Comilla simple: \'" + nombre + "\'");
+        System.out.println("Comilla doble: \"" + nombre + "\"");
     }
 }
 
