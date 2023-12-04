@@ -60,8 +60,24 @@ public class HolaMundo {
         Tipos primitivos enteros: byte, short, int, long
         */
         byte numeroByte = 10;
+        System.out.println("numeroByte = " + numeroByte);
         System.out.println("Valor minimo byte: " + Byte.MIN_VALUE);
         System.out.println("Valor maximo byte: " + Byte.MAX_VALUE);
+
+        short numeroShort = 10;
+        System.out.println("numeroShort = " + numeroShort);
+        System.out.println("Valor minimo short: " + Short.MAX_VALUE);
+        System.out.println("Valor minimo short: " + Short.MIN_VALUE);
+
+        int numeroInt = 10;
+        System.out.println("numeroInt = " + numeroInt);
+        System.out.println("Valor minimo int: " + Integer.MAX_VALUE);
+        System.out.println("Valor minimo int: " + Integer.MIN_VALUE);
+
+        long numeroLong = 10323232233123L;
+        System.out.println("numeroLong = " + numeroLong);
+        System.out.println("Valor minimo int: " + Long.MAX_VALUE);
+        System.out.println("Valor minimo int: " + Long.MIN_VALUE);
     }
 }
 
