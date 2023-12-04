@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 // Mi clase Java
 public class HolaMundo {
     public static void main(String[] args) {
@@ -24,6 +22,7 @@ public class HolaMundo {
         System.out.println(miVariableCadena2);
 
         // Valoes permitidos en el nombre de variables
+        /*
         var miVariable = 1;
         var _miVariable = 2;
         var $miVariable = 3;
@@ -55,6 +54,14 @@ public class HolaMundo {
         System.out.println("Proporciona el autor: ");
         var autor = consola.nextLine();
         System.out.println(titulo1 + " Fue escrito por " + autor);
+        */
+
+        /*
+        Tipos primitivos enteros: byte, short, int, long
+        */
+        byte numeroByte = 10;
+        System.out.println("Valor minimo byte: " + Byte.MIN_VALUE);
+        System.out.println("Valor maximo byte: " + Byte.MAX_VALUE);
     }
 }
 
