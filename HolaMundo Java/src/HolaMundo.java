@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 // Mi clase Java
 public class HolaMundo {
     public static void main(String[] args) {
@@ -89,6 +91,29 @@ public class HolaMundo {
         System.out.println("Valor minimo tipo double: " + Double.MIN_VALUE);
         System.out.println("Valor maximo tipo double: " + Double.MAX_VALUE);
 
+        // Convertir tipo String  a un tipo int
+        var edad = Integer.parseInt("20");
+        System.out.println("edad = " + edad);
+
+        var edadTexto = String.valueOf(10);
+        System.out.println("edadTexto = " + edadTexto);
+
+        var caracter = "hola".charAt(0);
+        System.out.println("caracter = " + caracter);
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Proporciona el nombre:");
+        String nombre = scanner.nextLine();
+        System.out.println("Proporciona el id:");
+        int id = Integer.parseInt(scanner.nextLine());
+        System.out.println("Proporciona el precio:");
+        double precio = Double.parseDouble(scanner.nextLine());
+        System.out.println("Proporciona el envio gratuito:");
+        boolean envioGratuito = Boolean.parseBoolean(scanner.nextLine());
+
+        System.out.println(nombre + " #" + id);
+        System.out.println("Precio: $" + precio);
+        System.out.println("Envio Gratuito: " + envioGratuito);
     }
 }
 
