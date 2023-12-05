@@ -78,6 +78,17 @@ public class HolaMundo {
         System.out.println("numeroLong = " + numeroLong);
         System.out.println("Valor minimo int: " + Long.MAX_VALUE);
         System.out.println("Valor minimo int: " + Long.MIN_VALUE);
+
+        float numeroFloat = 10;
+        System.out.println("numeroFloat = " + numeroFloat);
+        System.out.println("Valor minimo tipo float: " + Float.MIN_VALUE);
+        System.out.println("Valor maximo tipo float: " + Float.MAX_VALUE);
+
+        double numeroDouble = 10;
+        System.out.println("numeroDouble = " + numeroDouble);
+        System.out.println("Valor minimo tipo double: " + Double.MIN_VALUE);
+        System.out.println("Valor maximo tipo double: " + Double.MAX_VALUE);
+
     }
 }
 
