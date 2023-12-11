@@ -1,4 +1,3 @@
-import java.util.Scanner;
 
 // Mi clase Java
 public class HolaMundo {
@@ -101,19 +100,32 @@ public class HolaMundo {
         var caracter = "hola".charAt(0);
         System.out.println("caracter = " + caracter);
 
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Proporciona el nombre:");
-        String nombre = scanner.nextLine();
-        System.out.println("Proporciona el id:");
-        int id = Integer.parseInt(scanner.nextLine());
-        System.out.println("Proporciona el precio:");
-        double precio = Double.parseDouble(scanner.nextLine());
-        System.out.println("Proporciona el envio gratuito:");
-        boolean envioGratuito = Boolean.parseBoolean(scanner.nextLine());
+        var condicion = false;
+        if (condicion) {
+            System.out.println("Condicion verdadera");
+        }
+        else {
+            System.out.println("Condicion falsa");
+        }
+        var numero = 2;
+        var numeroTexto = "Numero desconocido";
 
-        System.out.println(nombre + " #" + id);
-        System.out.println("Precio: $" + precio);
-        System.out.println("Envio Gratuito: " + envioGratuito);
+        if (numero == 1) {
+            numeroTexto = "Numero uno";
+        }
+        else if (numero == 2) {
+            numeroTexto = "Numero dos";
+        }
+        else if (numero == 3) {
+            numeroTexto = "Numero tres";
+        }
+        else if (numero == 4) {
+            numeroTexto = "Numero cuatro";
+        }
+        else {
+            numeroTexto = "Numero no encontrado";
+        }
+        System.out.println("Numero texto = " + numeroTexto);
     }
 }
 
