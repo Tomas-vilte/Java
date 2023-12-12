@@ -100,32 +100,17 @@ public class HolaMundo {
         var caracter = "hola".charAt(0);
         System.out.println("caracter = " + caracter);
 
-        var condicion = false;
-        if (condicion) {
-            System.out.println("Condicion verdadera");
-        }
-        else {
-            System.out.println("Condicion falsa");
-        }
-        var numero = 2;
-        var numeroTexto = "Numero desconocido";
+        int mes = 5;
 
-        if (numero == 1) {
-            numeroTexto = "Numero uno";
+        if (mes >= 3 && mes <= 5) {
+            System.out.println("Primavera");
+        } else if (mes >= 6 && mes <= 8) {
+            System.out.println("Verano");
+        } else if (mes >= 9 && mes <= 11) {
+            System.out.println("Otoño");
+        } else {
+            System.out.println("Invierno");
         }
-        else if (numero == 2) {
-            numeroTexto = "Numero dos";
-        }
-        else if (numero == 3) {
-            numeroTexto = "Numero tres";
-        }
-        else if (numero == 4) {
-            numeroTexto = "Numero cuatro";
-        }
-        else {
-            numeroTexto = "Numero no encontrado";
-        }
-        System.out.println("Numero texto = " + numeroTexto);
     }
 }
 
