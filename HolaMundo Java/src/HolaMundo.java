@@ -100,17 +100,36 @@ public class HolaMundo {
         var caracter = "hola".charAt(0);
         System.out.println("caracter = " + caracter);
 
-        int mes = 5;
+        var mes = 5;
+        var estacion = "Estacion desconocida";
 
-        if (mes >= 3 && mes <= 5) {
-            System.out.println("Primavera");
-        } else if (mes >= 6 && mes <= 8) {
-            System.out.println("Verano");
-        } else if (mes >= 9 && mes <= 11) {
-            System.out.println("Otoño");
-        } else {
-            System.out.println("Invierno");
+        switch (mes) {
+            case 1:
+            case 2:
+            case 3:
+                estacion = "Primavera";
+                break;
+            case 4:
+            case 5:
+            case 6:
+                estacion = "Verano";
+                break;
+            case 7:
+            case 8:
+            case 9:
+                estacion = "Otoño";
+                break;
+            case 10:
+            case 11:
+            case 12:
+                estacion = "Invierno";
+                break;
+            default:
+                estacion = "Mes inválido";
+                break;
         }
+
+        System.out.println("El mes " + mes + " corresponde a la estación " + estacion);
 
         var numero = 2;
         var numeroTexto = "Valor desconocido";
